@@ -1,0 +1,166 @@
+/* div用的margin高*/
+.martop8{
+    margin-top:8px
+}
+.martop10{
+      margin-top:10px
+  }
+.martop15{
+    margin-top:15px
+}
+.martop20{
+    margin-top:20px
+}
+.martop30{
+    margin-top:30px
+}
+
+/* div用的高 */
+.hr_5{height:5px;}
+.hr_10{height:10px;}
+.hr_15{height:15px;}
+.hr_20{height:20px;}
+.hr_25{height:25px;}
+.hr_30{height:30px;}
+.hr_35{height:35px;}
+.hr_40{height:45px;}
+
+
+
+/* navbar-blue */
+.navbar-blue {
+    background-color: #1D7AD9;
+    border-color: #1D7AD9;
+}
+.navbar-blue .navbar-brand {
+    color: #fff;
+}
+.navbar-blue .navbar-brand:hover,
+.navbar-blue .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-blue .navbar-text {
+    color: #fff;
+}
+.navbar-blue .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-blue .navbar-nav > li > a:hover,
+.navbar-blue .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+/*active标签颜色*/
+.navbar-blue .navbar-nav > .active > a,
+.navbar-blue .navbar-nav > .active > a:hover,
+.navbar-blue .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #4593FD;
+}
+.navbar-blue .navbar-nav > .disabled > a,
+.navbar-blue .navbar-nav > .disabled > a:hover,
+.navbar-blue .navbar-nav > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+}
+.navbar-blue .navbar-toggle {
+    border-color: #333;
+}
+.navbar-blue .navbar-toggle:hover,
+.navbar-blue .navbar-toggle:focus {
+    background-color: #333;
+}
+.navbar-blue .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-blue .navbar-collapse,
+.navbar-blue .navbar-form {
+    border-color: #1369C0;
+}
+.navbar-blue .navbar-nav > .open > a,
+.navbar-blue .navbar-nav > .open > a:hover,
+.navbar-blue .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #4593FD;
+}
+@media (max-width: 767px) {
+    .navbar-blue .navbar-nav .open .dropdown-menu > .dropdown-header {
+        border-color: #4593FD;
+    }
+    .navbar-blue .navbar-nav .open .dropdown-menu .divider {
+        background-color: #4593FD;
+    }
+    .navbar-blue .navbar-nav .open .dropdown-menu > li > a {
+        color: #999;
+    }
+    .navbar-blue .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-blue .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        background-color: transparent;
+    }
+    .navbar-blue .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-blue .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-blue .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #fff;
+        background-color: #4593FD;
+    }
+    .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-blue .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #444;
+        background-color: transparent;
+    }
+}
+.navbar-blue .navbar-link {
+    color: #999;
+}
+.navbar-blue .navbar-link:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+/*sidebar*/
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #ddd;
+    border-right: 1px solid #eee;
+}
+
+.nav-sidebar {
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main .page-header {
+    margin-top: 0;
+}

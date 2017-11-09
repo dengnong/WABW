@@ -1,0 +1,8 @@
+diff a/src/bluemountain/web/doctor/statistics/PatientController.java b/src/bluemountain/web/doctor/statistics/PatientController.java	(rejected hunks)
+@@ -107,4 +107,6 @@
+         return "doctor/statistics/patient";
+     }
+ 
++
++
+ }

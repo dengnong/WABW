@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BlueMountain:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BlueMountain_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="BlueMountain/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BlueMountain" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring" />
+          <element id="library" level="project" name="commons-dbcp" />
+          <element id="library" level="project" name="spring-mvc" />
+          <element id="library" level="project" name="spring-security" />
+          <element id="library" level="project" name="mysql-connector" />
+          <element id="library" level="module" name="JUnit4" module-name="BlueMountain" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="jstl" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
